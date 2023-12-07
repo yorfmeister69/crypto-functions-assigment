@@ -1,5 +1,3 @@
-// Add the previously provided cryptographic functions here
-
 // Function to update input fields based on selected operation
 function updateInputFields() {
   const operation = document.getElementById("operation").value;
