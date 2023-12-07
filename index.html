@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Operations</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Cryptographic Operations</h1>
+  <select id="operation">
+    <option value="gcd">GCD Calculator</option>
+    <option value="extendedEuclidean">Extended Euclidean Algorithm</option>
+    <option value="hillCipherEnc">Hill Cipher (Encryption)</option>
+    <option value="hillCipherDec">Hill Cipher (Decryption)</option>
+    <option value="rsa">RSA Encryption/Decryption</option>
+  </select>
+  <div id="inputFields">
+    <!-- Input fields will be dynamically inserted here by JavaScript -->
+  </div>
+  <button onclick="performOperation()">Calculate</button>
+  <div id="result"></div>
+</div>
+
+<footer>
+    <p>Created by Yoosuf Rifathu (s073094) &copy; 2023</p>
+</footer>
+
+<script src="gcd.js"></script>
+<script src="extended_gcd.js"></script>
+<script src="hill_cipher.js"></script>
+<script src="rsa.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
